@@ -1,7 +1,7 @@
 pipeline {
   agent any
   environment {
-    IMAGE_NAME = 'ridho/simple-app'
+    IMAGE_NAME = 'ridhoaja/simple-app'
     REGISTRY_CREDENTIALS = 'dockerhub-credentials'
   }
   stages {
@@ -33,4 +33,5 @@ pipeline {
   }
 
 }
+
 
